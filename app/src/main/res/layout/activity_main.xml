@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        >
+        <include layout="@layout/action_bar_home" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/homeActionBarId"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            tools:listitem="@layout/recycler_item" />
+
+        <TextView
+            android:id="@+id/empty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/empty_notes"
+            android:textSize="25sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/notesAddFBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:backgroundTint="#3B3B3B"
+            android:clickable="true"
+            android:contentDescription="@string/add_notes"
+            android:focusable="true"
+            style="@style/Widget.Material3.Button"
+            android:src="@drawable/plus_24"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

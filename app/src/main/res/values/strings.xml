@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuickNotes</string>
+    <string name="lorem">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, \n\n as opposed to using Content here, content here, making it look like readable English.</string>
+    <string name="start_typing">Start typing</string>
+    <string name="title">Title</string>
+    <string name="pancasila">Pancasila</string>
+    <string name="success_message">Success Message</string>
+    <string name="empty_notes">Empty Notes!</string>
+    <string name="title_example">Title Example</string>
+    <string name="dummy_date">February 17,2022</string>
+    <string name="add_notes">add notes</string>
+    <string name="dummy_dialog_text">Are you sure want to delete this entry?</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="notes">Notes</string>
+</resources>

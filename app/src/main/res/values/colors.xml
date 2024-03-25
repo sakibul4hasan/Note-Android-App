@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow_light">#FEF9ED</color>
+    <color name="blue_light">#F6FAFF</color>
+    <color name="green_light">#EDFFEE</color>
+    <color name="pink_light">#FCE9FF</color>
+
+    <color name="success">#52C41A</color>
+    <color name="error">#F5222D</color>
+    <color name="warning">#FAAD14</color>
+
+    <color name="empty_text">#A5A5A5</color>
+</resources>
